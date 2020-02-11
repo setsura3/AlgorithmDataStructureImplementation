@@ -1,7 +1,7 @@
 package com.company;
 
 import java.util.TreeMap;
-
+//Trie node initialiation
 public class Trie {
     private class Node {
         public boolean isWord;
@@ -16,7 +16,7 @@ public class Trie {
             this(false);
         }
     }
-
+    
     private Node root;
     private int size;
 
